@@ -1,0 +1,209 @@
+﻿
+[STRUGGLE]
+Name = Struggle
+Category = Physical
+Power = 50
+Type = PRED
+Target = NearOther
+FunctionCode = None
+Flags = CannnotMetronome
+#-------------------------------
+[DEVOUR]
+Name = Devour
+Type = NORMAL
+Category = Physical
+Power = 1
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = Eats target.
+#-------------------------------
+[BELLYPORT]
+Name = Bellyport
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = Teleports target into their stomach. Can't miss.
+#-------------------------------
+[VIPERSTRIKE]
+Name = Viper Strike
+Type = POISON
+Category = Physical
+Power = 50
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = Lunges at prey with venomous fangs.
+#-------------------------------
+[MASSAGE]
+Name = Massage
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseTargetRandomStat2
+Flags = CannotMetronome
+Description = The user struggles lightly to massage their pred. raises a random stat by 2.
+#-------------------------------
+[BELLYSLAM]
+Name = Belly Slam
+Type = FIGHTING
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DoublePowerIfUserFull
+Flags = Contact,CanProtect
+Description = Slams their Stomach into the target. Double Damage if the Pokemon has eaten someone.
+#-------------------------------
+[UNBIRTH]
+Name = Unbirth
+Type = FAIRY
+Category = Status
+Power = 0
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = Pulls target into their womb.
+#-------------------------------
+[GIGABITE]
+Name = Giga Bite
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = UseRandomDevourMove
+Description = Picks a random move to eat the target with.
+#-------------------------------
+[ROLEREVERSAL]
+Name = Role Reversal
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserRoleReversal
+Flags = CannotMetronome
+Description = Protects the user from attacks. Eats any Prey that makes contact.
+#-------------------------------
+[SAFEKEEPING]
+Name = Safekeeping
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = EatTargetEndo
+Flags = Contact,CanProtect,CannotMetronome
+Description = Brings target into their stomach to slowly heal them.
+#-------------------------------
+[RAVENOUSHUNGER]
+Name = Ravenous Hunger
+Type = GHOST
+Category = Physical
+Power = 1
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = The user feels the hunger of the countless predators. Restores Hp with digestion damage.
+#-------------------------------
+[WORKOFF]
+Name = Work Off
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 24
+Target = User
+FunctionCode = LoseWeightRaiseUserAtkSpAtk2
+Flags = CannotMetronome
+Description = The user works off their previous meals to boost their stats.
+#-------------------------------
+[METRONOM]
+Name = Metro-Nom
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = UseRandomDevourMove
+Description = Picks a random move to eat the target with.
+#-------------------------------
+[PIXIEPOUNCE]
+Name = Pixie Pounce
+Type = FAIRY
+Category = Physical
+Power = 1
+Accuracy = 60
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = The User utilizes their small size to catch their prey by surprise.
+#-------------------------------
+[BUTTCRUSH]
+Name = Butt Crush
+Type = STEEL
+Category = Physical
+Power = 1
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = PowerHigherWithUserHeavierThanTargetEatTargetAnal
+EffectChance = 30
+Flags = Contact,CanProtect,CannotMetronome
+Description = The user crushes their prey with their full weight.
+#-------------------------------
+[ASSDROP]
+Name = Ass Drop
+Type = DARK
+Category = Physical
+Power = 110
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = CrashDamageIfFailsUnusableInGravityEatTargetAnal
+EffectChance = 30
+Flags = Contact,CanProtect,CannotMetronome
+Description = The user jumps in the air and lands ass first on prey
+#-------------------------------
+[TAILSTRIKE]
+Name = Tail Strike
+Type = DRAGON
+Category = Physical
+Power = 80
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = EatTargetTail
+EffectChance = 30
+Flags = Contact,CanProtect,CannotMetronome
+Description = The user bites at their prey using their tail
+#-------------------------------
+[FATALEMBRACE]
+Name = Fatal Embrace
+Type = WATER
+Category = Physical
+Power = 1
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = Eats target.
