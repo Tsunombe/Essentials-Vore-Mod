@@ -3,6 +3,7 @@ Mod for Vore in Pokemon Essentials
 Not A Plugin. Please read the Instructions attached in the file
 
 Download the Essentials Vore Mod.zip and extract it
+Requires V21.1 Hotfixes and Following Pokémon EX
 
 
 
