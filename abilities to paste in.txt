@@ -1,0 +1,61 @@
+﻿
+[HUNGERDRIVE]
+Name = Hunger Drive
+Description = Gains increased stats on digesting an enemy.
+#-------------------------------
+[APEXPRED]
+Name = Apex Pred
+Description = Cannot be eaten by other preds.
+#-------------------------------
+[MELODICCHURN]
+Name = Melodic Churn
+Description = Applies Serene Grace while digesting prey.
+#-------------------------------
+[NOISYSTOMACH]
+Name = Noisy Stomach
+Description = Can't hear anything over it's own stomach noises.
+#-------------------------------
+[GUTSLUT]
+Name = Gutslut
+Description = Target of vore attacks, doesn't struggle.
+#-------------------------------
+[SOULABSORPTION]
+Name = Soul Absorb
+Description = Absorb's a prey's soul on digestion and heals themself.
+#-------------------------------
+[HEFTY]
+Name = Hefty
+Description = Gains Thick Fat at higher weights.
+#-------------------------------
+[MOTHERLY]
+Name = Motherly
+Description = Generates an egg from prey they unbirth.
+Flags = FasterEggHatching
+#-------------------------------
+[PROTECTIVE]
+Name = Protective
+Description = Lowers damage allies take.
+#-------------------------------
+[GLITCHY]
+Name = Glitchy
+Description = Gains random stat changes on digesting a prey.
+#-------------------------------
+[ARMORBURST]
+Name = Armor Burst
+Description = User bursts through their armor with weight gain. can eat fire based moves.
+#-------------------------------
+[TINYBODY]
+Name = Tiny Body
+Description = Enhanced accuracy but slower digestion
+#-------------------------------
+[MILKPRODUCE]
+Name = Milk Produce
+Description = Churns prey into milk.
+#-------------------------------
+[REFORMER]
+Name = Reformer
+Description = Reforms if digested.
+#-------------------------------
+[HONEYLEAK]
+Name = Honey Leak
+Description = Produces honey from digested prey.
