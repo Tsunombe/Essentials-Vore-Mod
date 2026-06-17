@@ -155,6 +155,29 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = UseRandomDevourMove
 Description = Uses any random move with which to eat the target.
+#-------------------------------
+[POUNCEANDPILFER]
+Name = Pounce & Pilfer
+Type = DARK
+Category = Status
+Accuracy = 80
+TotalPP = 15
+Target = NearOther
+FunctionCode = UserTakesTargetItemEatTarget
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user pounces on their prey, eating them and burping up their item to equip.
+#-------------------------------
+[RAMPAGE]
+Name = Rampage
+Type = DRAGON
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = RandomNearFoe
+FunctionCode = MultiTurnAttackConfuseUserAtEndEatTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user rampages and eats all in it's path for two to three turns. User is confused after.
 #------------------------------- BREAST MOVES -------------------------------
 #-------------------------------
 [MOTORBOAT]
@@ -191,7 +214,7 @@ Power = 0
 Accuracy = 90
 TotalPP = 20
 Target = NearOther
-FunctionCode = EatTarget
+FunctionCode = EatTargetUnbirth
 Flags = Contact,CanProtect,CannotMetronome
 Description = Pulls target into user's womb, dealing damage and restricting moves. The prey may break out.
 #-------------------------------
@@ -226,9 +249,22 @@ Power = 1
 Accuracy = 90
 TotalPP = 20
 Target = NearOther
-FunctionCode = EatTarget
+FunctionCode = EatTargetCock
 Flags = Contact,CanProtect,CannotMetronome
 Description = Pulls target into user's cock, dealing damage and restricting moves. The prey may break out.
+#-------------------------------
+[COCKSLAP]
+Name = Cockslap
+Type = STEEL
+Category = Physical
+Power = 75
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+EffectChance = 30
+FunctionCode = EatTargetCockAdditionalEffect
+Flags = Contact,CanProtect,HighCriticalHitRate,CanMirrorMove
+Description = The user slaps foe with their hard cock. High critical hit and CV chance.
 #------------------------------- ANAL MOVES -------------------------------
 [BUTTCRUSH]
 Name = Butt Crush
@@ -282,6 +318,18 @@ EffectChance = 30
 Flags = Contact,CanProtect,CannotMetronome
 Description = The user bites at their prey using their tail.
 #------------------------------- NON-CONVENTIONAL MOVES -------------------------------
+[CANDYBEAM]
+Name = Candy Beam
+Type = NORMAL
+Category = Special
+Power = 50
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = EatTarget
+Flags = Contact,CanProtect,CannotMetronome
+Description = The user turns the target into candy for them to swallow.
+#-------------------------------
 [BELLYPORT]
 Name = Bellyport
 Type = PSYCHIC
@@ -387,6 +435,29 @@ Target = NearOther
 FunctionCode = IncreasePowerEachDigestedEnemy
 Flags = CanProtect,CanMirrorMove
 Description = Move’s power increases with each pokemon digested this battle.
+#-------------------------------
+[HYPNOTIZE]
+Name = Hypnotize
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = SetTargetAbilityToGutslut
+Flags = CanProtect,CanMirrorMove
+Description = Hypnotizes target into wanting to be eaten. Changes their ability to Gutslut.
+#-------------------------------
+[CLIMAX]
+Name = Climax
+Type = FAIRY
+Category = Special
+Power = 55
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = InfatuateTargetFailIfNotCVOrUB
+Flags = CanMirrorMove
+Description = The user masturbates with their prey, causing infatuation. fails if not CV or UB.
 #------------------------------- Belchies -------------------------------
 [BURP]
 Name = Burp
@@ -414,17 +485,6 @@ FunctionCode = FailsIfUserNotConsumedBerryCanBurn
 Flags = Contact,CanProtect,CannotMetronome
 Description = The user lets out a flaming belch at the target with a chance to burn. The user must eat a prey to use this move.
 #------------------------------- PREY/GUTSLUT MOVES -------------------------------
-[MASSAGE]
-Name = Massage
-Type = NORMAL
-Category = Status
-Accuracy = 0
-TotalPP = 10
-Target = NearOther
-FunctionCode = RaiseTargetRandomStat2
-Flags = CannotMetronome
-Description = The user struggles lightly to please their pred, sharply raising a random stat.
-#-------------------------------
 [OFFERING]
 Name = Offering
 Type = GHOST
@@ -447,6 +507,31 @@ Target = NearOther
 FunctionCode = TargetSpitsUpPreyForDoubleDamage
 Flags = CanProtect,Contact
 Description = Doubles damage and causes target to spit out prey if hit by this punch.
+#-------------------------------
+[WRITHE]
+Name = Writhe
+Type = NORMAL
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTargetUsableIfEaten
+Flags = Contact
+EffectChance = 30
+Description = The user's thrashes around with chance to flinch. Usable with priority when eaten.
+#-------------------------------
+[PARASITISM]
+Name = Parasitism
+Type = BUG
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDoneUsableIfEaten
+Flags = Contact
+Description = The user's HP is restored by half the damage taken by the target. Usable when eaten.
 #------------------------------- ENDO MOVES -------------------------------
 [SAFEKEEPING]
 Name = Safekeeping
@@ -463,10 +548,21 @@ Description = Brings target into their stomach to slowly heal them.
 Name = Struggle
 Category = Physical
 Power = 40
-Type = NORMAL
+Type = QMARKS
 Target = NearOther
-FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
+FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbilityUsableIfEaten
 Flags = CannnotMetronome
+#-------------------------------
+[MASSAGE]
+Name = Massage
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseTargetRandomStat2UsableIfEaten
+Flags = CannotMetronome
+Description = The user struggles lightly to please their pred, sharply raising a random stat.
 #------------------------------- END OF VORE MOVES -------------------------------
 #------------------------------- FEEDERISM MOVES -------------------------------
 [CALORIEBOMB]
@@ -479,3 +575,14 @@ Target = NearOther
 FunctionCode = RaiseTargetWeight
 Flags = CanProtect,CanMirrorMove
 Description = The user stuffs food into their opponent's mouth, lowering their speed and attack.
+#-------------------------------
+[SNACKBREAK]
+Name = Snack Break
+Type = NORMAL
+Category = Status
+Power = 0
+Accuracy = 100
+TotalPP = 15
+Target = UserOrNearAlly
+FunctionCode = HitTwoToFiveTimesStuffUser
+Description = The user takes a snack break to recover it's or ally's hp 16% 2-5 times.

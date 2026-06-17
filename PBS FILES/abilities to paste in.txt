@@ -156,3 +156,67 @@ Description = Deals electric type digestion damage. Can paralyze.
 Name = Motherly
 Description = Deals Fairy type Digestion damage. Can infatuate.
 Flags = FasterEggHatching
+#-------------------------------
+[BLISTERINGBELCH]
+Name = Blistering Belch
+Description =  Lets out a belch of pure heat after digesting prey, causing harsh sun.
+#-------------------------------
+[SNOWYSPITTLE]
+Name = Snowy Spittle
+Description =  Lets out a large burp of snow after digesting prey, causing a snowstorm.
+#-------------------------------
+[SANDYSPITTLE]
+Name = Sandy Spittle
+Description =  Lets out a large burp of sand after digesting prey, causing a sandstorm.
+#-------------------------------
+[STORMYSPITTLE]
+Name = Stormy Spittle
+Description =  Lets out a large wet burp after digesting prey, causing a rain storm.
+#-------------------------------
+[LADYKILLER]
+Name = Lady Killer
+Description =  Deals more damage to female prey.
+#-------------------------------
+[MANEATER]
+Name = Man Eater
+Description =  Deals more damage to male prey.
+#-------------------------------
+[FATTYFOOD]
+Name = Fatty Food
+Description =  Boosts pred's weight up massively and heavily lowers their speed when digested.
+#-------------------------------
+[ASSIMILATE]
+Name = Assimilate
+Description =  Transforms into their prey after digestion
+#-------------------------------
+[ASSETTHIEF]
+Name = Asset Thief
+Description =  Takes on the typings of a prey it digests.
+#-------------------------------
+[KLEPTO]
+Name = Klepto
+Description =  Burps up and equips items of prey on eating them.
+#-------------------------------
+[SELFPRESERVATION]
+Name = Self Preservation
+Description =  Digests an endoed ally to save themself when low hp.
+#-------------------------------
+[BURNOUT]
+Name = Burnout
+Description =  Next fire move is powered up after digestion.
+#-------------------------------
+[CLUMSY]
+Name = Clumsy
+Description =  Chance to trip on a random Pokemon on miss.
+#-------------------------------
+[PROTEINBOOST]
+Name = Protein Boost
+Description =  Burns off weight to increase punching power.
+#-------------------------------
+[HUNGRYGLARE]
+Name = Hungry Glare
+Description =  Lowers speed of all other Pokémon on switch in.
+#-------------------------------
+[SADIST]
+Name = Sadist
+Description =  Bonus accuracy and eat chance for vore moves on debuffed prey.
