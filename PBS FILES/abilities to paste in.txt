@@ -1,0 +1,222 @@
+﻿
+#-------------------------------
+[HUNGERDRIVE]
+Name = Hunger Drive
+Description = Gains increased stats upon digesting an enemy.
+#-------------------------------
+[APEXPRED]
+Name = Apex Pred
+Description = Vore move effects have double chance of activating.
+#-------------------------------
+[MELODICCHURN]
+Name = Melodic Churn
+Description = Added effects more likely while digesting prey. 
+#-------------------------------
+[NOISYSTOMACH]
+Name = Noisy Stomach
+Description = Can't hear anything over it's own stomach noises.
+#-------------------------------
+[GUTSLUT]
+Name = Gutslut
+Description = When targeted by vore attacks, doesn't struggle.
+#-------------------------------
+[SOULABSORPTION]
+Name = Soul Absorb
+Description = Absorb the souls of digested prey to recover HP.
+#-------------------------------
+[HEFTY]
+Name = Hefty
+Description = Fire/Ice damage reduced at higher weights.
+#-------------------------------
+[PROTECTIVE]
+Name = Protective
+Description = Lowers damage allies take. Pred ability.
+#-------------------------------
+[GLITCHY]
+Name = Glitchy
+Description = Gains random stat changes upon digesting prey.
+#-------------------------------
+[ARMORBURST]
+Name = Armor Burst
+Description = User bursts through their armor with weight gain. can eat fire based moves.
+#-------------------------------
+[TINYBODY]
+Name = Tiny Body
+Description = Enhanced accuracy but slower digestion
+#-------------------------------
+[REFORMER]
+Name = Reformer
+Description = Reforms if digested once per battle.
+#-------------------------------
+[HONEYLEAK]
+Name = Honey Leak
+Description = Produces honey from digested prey.
+#-------------------------------
+[SLOWMETABOLISM]
+Name = Slow Metabolism
+Description = Slower digestion and falls asleep after a meal.
+#-------------------------------
+[PHAGOCYTOSIS]
+Name = Phagocytosis
+Description = Can pull prey into their body when hit with contact moves.
+#-------------------------------
+[MIDNIGHTSNACKING]
+Name = Midnight Snacking
+Description = Chance to eat a random foe while asleep.
+#-------------------------------
+[BRILLIANTBELCH]
+Name = Brilliant Belch
+Description =  Lets out a belch of sunlight after digesting prey, causing harsh sun.
+#-------------------------------
+[HIBERNATE]
+Name = Hibernate
+Description =  Falls asleep after eating a prey. Prey take double digestion damage.
+#-------------------------------
+[TRICKTUM]
+Name = Trick Tum
+Description =  Releases psychic energy out after digesting prey, twisting the dimensions.
+#-------------------------------
+[VENGEANCE]
+Name = Vengeance
+Description =  Sharply increases attack when eaten.
+#-------------------------------
+[MEMORYABSORB]
+Name = Memory Absorb
+Description = Can steal the moves of digested prey.
+#-------------------------------
+[BIOFUEL]
+Name = Biofuel
+Description = Moves first after digesting a prey.
+#-------------------------------
+[INFERNALINNARDS]
+Name = Infernal Innards
+Description = Digestion deals fire damage with chance to burn.
+#-------------------------------
+[MOUTHFUL]
+Name = Mouthful
+Description =  Chance to swallow prey with biting moves.
+#-------------------------------
+[PARTINGGIFT]
+Name = Parting Gift
+Description =  Burps up bones of prey to use as an entry hazard.
+#-------------------------------
+[POISONOUS]
+Name = Poisonous
+Description =  Poisons Pred when eaten.
+#-------------------------------
+[CONTORTIONIST]
+Name = Contortionist
+Description =  Can attack with contact moves while eaten.
+#-------------------------------
+[IMPERVIOUSGUT]
+Name = Impervious Gut
+Description =  Un-effected by the abilities of things it swallows.
+#-------------------------------
+[STRETCHY]
+Name = Stretchy
+Description =  Prey's struggles are half as effective.
+#-------------------------------
+[VETERAN]
+Name = Veteran
+Description =  While above 1/2 Hp, will eat preds that try to eat it.
+#-------------------------------
+[CRYOCHAMBER]
+Name = Cryochamber
+Description = Digestion deals Ice damage with chance to freeze.
+#-------------------------------
+[SURPRISEATTACK]
+Name = Surprise Attack
+Description = Catches prey off guard and eats them if it's the first turn of the battle.
+#-------------------------------
+[HAUNTING]
+Name = Haunting
+Description = User curses and traps their predator for that turn when digested.
+#-------------------------------
+[RELENTLESSSTORM]
+Name = Relentless Storm
+Description = Spends a small amount of energy to cause an unending storm.
+#-------------------------------
+[HUNTRESS]
+Name = Huntress
+Description = Boosts accuracy of vore moves.
+#-------------------------------
+[GLUTTONOUS]
+Name = Gluttonous
+Description = Small amount of Hp recovered per turn. Increases with amount of prey eaten.
+#-------------------------------
+[CAUSTICCAULDRON]
+Name = Caustic Cauldron
+Description = Deals poison type digestion damage. Can poison.
+#-------------------------------
+[BATTERYACID]
+Name = Battery Acid
+Description = Deals electric type digestion damage. Can paralyze.
+#-------------------------------
+[MOTHERLY]
+Name = Motherly
+Description = Deals Fairy type Digestion damage. Can infatuate.
+Flags = FasterEggHatching
+#-------------------------------
+[BLISTERINGBELCH]
+Name = Blistering Belch
+Description =  Lets out a belch of pure heat after digesting prey, causing harsh sun.
+#-------------------------------
+[SNOWYSPITTLE]
+Name = Snowy Spittle
+Description =  Lets out a large burp of snow after digesting prey, causing a snowstorm.
+#-------------------------------
+[SANDYSPITTLE]
+Name = Sandy Spittle
+Description =  Lets out a large burp of sand after digesting prey, causing a sandstorm.
+#-------------------------------
+[STORMYSPITTLE]
+Name = Stormy Spittle
+Description =  Lets out a large wet burp after digesting prey, causing a rain storm.
+#-------------------------------
+[LADYKILLER]
+Name = Lady Killer
+Description =  Deals more damage to female prey.
+#-------------------------------
+[MANEATER]
+Name = Man Eater
+Description =  Deals more damage to male prey.
+#-------------------------------
+[FATTYFOOD]
+Name = Fatty Food
+Description =  Boosts pred's weight up massively and heavily lowers their speed when digested.
+#-------------------------------
+[ASSIMILATE]
+Name = Assimilate
+Description =  Transforms into their prey after digestion
+#-------------------------------
+[ASSETTHIEF]
+Name = Asset Thief
+Description =  Takes on the typings of a prey it digests.
+#-------------------------------
+[KLEPTO]
+Name = Klepto
+Description =  Burps up and equips items of prey on eating them.
+#-------------------------------
+[SELFPRESERVATION]
+Name = Self Preservation
+Description =  Digests an endoed ally to save themself when low hp.
+#-------------------------------
+[BURNOUT]
+Name = Burnout
+Description =  Next fire move is powered up after digestion.
+#-------------------------------
+[CLUMSY]
+Name = Clumsy
+Description =  Chance to trip on a random Pokemon on miss.
+#-------------------------------
+[PROTEINBOOST]
+Name = Protein Boost
+Description =  Burns off weight to increase punching power.
+#-------------------------------
+[HUNGRYGLARE]
+Name = Hungry Glare
+Description =  Lowers speed of all other Pokémon on switch in.
+#-------------------------------
+[SADIST]
+Name = Sadist
+Description =  Bonus accuracy and eat chance for vore moves on debuffed prey.

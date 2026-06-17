@@ -1,0 +1,8 @@
+Name       = Essentials Vore Mod
+Version    = 1.3.0
+Essentials = 21.1
+Requires   = v21.1 Hotfixes, Following Pokémon EX, Generation 9 Resource Pack
+Website    = https://aryion.com/g4/user/tsunombe
+Credits    = Tsunombe Programming
+Gurgle animation - Alli spriting, Rayquayzanothere animating
+Guide editing - Yataro_Ibuza
