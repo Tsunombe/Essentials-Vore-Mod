@@ -215,7 +215,7 @@ Description =  Burns off weight to increase punching power.
 #-------------------------------
 [HUNGRYGLARE]
 Name = Hungry Glare
-Description =  Lowers speed of all other Pokémon on switch in.
+Description =  Lowers speed of all other Pokémon on switch in or digestion.
 #-------------------------------
 [SADIST]
 Name = Sadist

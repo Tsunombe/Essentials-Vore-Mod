@@ -506,7 +506,7 @@ TotalPP = 16
 Target = NearOther
 FunctionCode = TargetSpitsUpPreyForDoubleDamage
 Flags = CanProtect,Contact
-Description = Doubles damage and causes target to spit out prey if hit by this punch.
+Description = 1.5x damage and causes target to spit out prey if hit by this punch.
 #-------------------------------
 [WRITHE]
 Name = Writhe
