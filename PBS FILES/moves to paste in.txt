@@ -443,6 +443,7 @@ Category = Status
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
+Priority = -1
 FunctionCode = SetTargetAbilityToGutslut
 Flags = CanProtect,CanMirrorMove
 Description = Hypnotizes target into wanting to be eaten. Changes their ability to Gutslut.
