@@ -2,7 +2,8 @@ This is a vore mod for Pokemon Essentials 21.1
 
 This is not a plugin, so make sure to read the guide for installation. This is also intended for game development instead of modding existing games, since there is a large amount of set up required.
 
-DOWNLOAD - [Predmon mod 1.3.zip](https://github.com/user-attachments/files/29044390/Predmon.mod.1.3.zip)
+DOWNLOAD - [Predmon mod 1.31.zip](https://github.com/user-attachments/files/29178075/Predmon.mod.1.31.zip)
+
 
 Guide - [Pokemon Vore Mod Guide.pdf](https://github.com/user-attachments/files/29044398/Pokemon.Vore.Mod.Guide.pdf)
 
