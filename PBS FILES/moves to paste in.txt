@@ -230,15 +230,17 @@ FunctionCode = EffectChanceHigherWithTargetWeightEatTargetUnbirth
 Flags = Contact,CanProtect,CannotMetronome
 Description = User thrusts prey into their womb. Unbirth chance based on prey weight.
 #-------------------------------
-[CONTANMENTPROTOCOL]
+[CONTAINPROTOCOL]
 Name = Contain Protocol
 Type = ELECTRIC
-Category = Status
+Category = Special
+Power = 10
 Accuracy = 80
 TotalPP = 20
 Target = NearOther
 FunctionCode = LowerTargetAtkSpAtk1EatTargetUnbirth
 Flags = Contact,CanProtect,CannotMetronome
+EffectChance = 100
 Description = Traps target in user's womb, dealing damage and restricting moves. Weakens target's attack stats.
 #------------------------------- COCK MOVES -------------------------------
 [CV]
@@ -587,3 +589,16 @@ TotalPP = 15
 Target = UserOrNearAlly
 FunctionCode = HitTwoToFiveTimesStuffUser
 Description = The user takes a snack break to recover it's or ally's hp 16% 2-5 times.
+#-------------------------------
+[STUFF]
+Name = Stuff
+Type = FAIRY
+Category = Special
+Power = 30
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAtkSpd1RaiseWeight
+Flags = CanProtect
+EffectChance = 100
+Description = User stuffs target with food, lowering their attack and speed.
