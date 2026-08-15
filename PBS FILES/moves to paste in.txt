@@ -508,7 +508,7 @@ Accuracy = 100
 TotalPP = 16
 Target = NearOther
 FunctionCode = TargetSpitsUpPreyForDoubleDamage
-Flags = CanProtect,Contact
+Flags = CanProtect,Contact,Punching
 Description = 1.5x damage and causes target to spit out prey if hit by this punch.
 #-------------------------------
 [WRITHE]
@@ -570,14 +570,15 @@ Description = The user struggles lightly to please their pred, sharply raising a
 #------------------------------- FEEDERISM MOVES -------------------------------
 [CALORIEBOMB]
 Name = Calorie Bomb
-Type = NORMAL
-Category = Status
+Type = Normal
+Category = Special
+Power = 80
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseTargetWeight
 Flags = CanProtect,CanMirrorMove
-Description = The user stuffs food into their opponent's mouth, lowering their speed and attack.
+Description = The user throws food at their opponent, raising their weight if able to.
 #-------------------------------
 [SNACKBREAK]
 Name = Snack Break
