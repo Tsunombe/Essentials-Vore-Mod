@@ -570,7 +570,7 @@ Description = The user struggles lightly to please their pred, sharply raising a
 #------------------------------- FEEDERISM MOVES -------------------------------
 [CALORIEBOMB]
 Name = Calorie Bomb
-Type = Normal
+Type = NORMAL
 Category = Special
 Power = 80
 Accuracy = 100
