@@ -1,5 +1,0 @@
-﻿# See page 30 of the guide for an example of a scene.
-#-------------------------------
-[Default]
-Intro = Sorry, but this pokemon currently doesn't have a scene written
-#------------Place Scenes under here---------
