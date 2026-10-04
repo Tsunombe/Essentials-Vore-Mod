@@ -4,7 +4,8 @@ This is not a plugin, so make sure to read the guide for installation. This is a
 
 Pokemon Essential's guidelines state you cannot monetize any project using their engine. Please keep that in mind for any project using this mod also.
 
-DOWNLOAD - [Predmon mod 1.34.zip](https://github.com/user-attachments/files/32203114/Predmon.mod.1.34.zip)
+DOWNLOAD - [Predmon mod 1.35.zip](https://github.com/user-attachments/files/33034127/Predmon.mod.1.35.zip)
+
 
 https://discord.gg/yVmZQXpAWF - Pokemon Vore Sprites Hub
 
