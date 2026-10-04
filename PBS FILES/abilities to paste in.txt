@@ -64,10 +64,6 @@ Description = Can pull prey into their body when hit with contact moves.
 Name = Midnight Snacking
 Description = Chance to eat a random foe while asleep.
 #-------------------------------
-[BRILLIANTBELCH]
-Name = Brilliant Belch
-Description =  Lets out a belch of sunlight after digesting prey, causing harsh sun.
-#-------------------------------
 [HIBERNATE]
 Name = Hibernate
 Description =  Falls asleep after eating a prey. Prey take double digestion damage.
@@ -220,3 +216,15 @@ Description =  Lowers speed of all other Pokémon on switch in or digestion.
 [SADIST]
 Name = Sadist
 Description =  Bonus accuracy and eat chance for vore moves on debuffed prey.
+#-------------------------------
+[HIDDENWEBS]
+Name = Hidden Webs
+Description = Catches and eats prey that try to use priority moves.
+#-------------------------------
+[GUTCHA]
+Name = Gutcha
+Description = Eats their pred on being spit up.
+#-------------------------------
+[MERCIFUL]
+Name = Merciful
+Description = Stomach acids cannot faint a prey.

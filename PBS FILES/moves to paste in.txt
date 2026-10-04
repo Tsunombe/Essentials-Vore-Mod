@@ -242,6 +242,19 @@ FunctionCode = LowerTargetAtkSpAtk1EatTargetUnbirth
 Flags = Contact,CanProtect,CannotMetronome
 EffectChance = 100
 Description = Traps target in user's womb, dealing damage and restricting moves. Weakens target's attack stats.
+#-------------------------------
+[PSYSNATCH]
+Name = Psysnatch
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 85
+TotalPP = 20
+Target = NearOther
+FunctionCode = EatTargetUnbirthAdditionalEffect
+Flags = CanProtect,CannotMetronome,Vore
+EffectChance = 33
+Description = An unfocused attack that warps the target to unexpected places. May consume the target.
 #------------------------------- COCK MOVES -------------------------------
 [CV]
 Name = CV
@@ -267,6 +280,19 @@ EffectChance = 30
 FunctionCode = EatTargetCockAdditionalEffect
 Flags = Contact,CanProtect,HighCriticalHitRate,CanMirrorMove
 Description = The user slaps foe with their hard cock. High critical hit and CV chance.
+#-------------------------------
+[HELICOPTER]
+Name = Helicopter
+Type = FLYING
+Category = Physical
+Power = 95
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+EffectChance = 30
+FunctionCode = EatTargetCockAdditionalEffect
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user whips their cock around. chance to consume prey.
 #------------------------------- ANAL MOVES -------------------------------
 [BUTTCRUSH]
 Name = Butt Crush
@@ -306,6 +332,19 @@ FunctionCode = DamageBasedOnPreyEatenEatTargetAnal
 EffectChance = 30
 Flags = Contact,CanProtect,CannotMetronome
 Description = 30% to eat prey. dmg inc. with prey eaten (120 max) User slams their ass down on a prey's head.
+#-------------------------------
+[BLACKHOLE]
+Name = Black hole
+Type = PSYCHIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = EatTargetAnalAdditionalEffect
+EffectChance = 30
+Flags = Contact,CanProtect,CannotMetronome
+Description = Pulls prey towards their ass. Chance to consume them.
 #------------------------------- TAIL MOVES -------------------------------
 [TAILSTRIKE]
 Name = Tail Strike
@@ -319,6 +358,18 @@ FunctionCode = EatTargetTail
 EffectChance = 30
 Flags = Contact,CanProtect,CannotMetronome
 Description = The user bites at their prey using their tail.
+#-------------------------------
+[SOULEATER]
+Name = Soul Eater
+Type = GHOST
+Category = Physical
+Power = 1
+Accuracy = 30
+TotalPP = 5
+Target = NearOther
+FunctionCode = OHKOEatTarget
+Flags = CanProtect,CannotMetronome
+Description = The user consumes their prey's soul, defeating them instantly.
 #------------------------------- NON-CONVENTIONAL MOVES -------------------------------
 [CANDYBEAM]
 Name = Candy Beam
@@ -603,3 +654,4 @@ FunctionCode = LowerTargetAtkSpd1RaiseWeight
 Flags = CanProtect
 EffectChance = 100
 Description = User stuffs target with food, lowering their attack and speed.
+
